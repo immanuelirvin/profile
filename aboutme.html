@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .aboutus-content{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(30,32,38,255);
+            width: 100%;
+            height: 700px;  
+            text-align: center;
+        }
+        
+        .aboutus-box{
+            width: 53%;
+            display: inline-block;
+            text-align: center;
+            margin-left: 23%;
+            
+        }
+        .aboutus-box     p, .aboutus-box h2{  
+            color: white;
+        }
+
+        .title h1{
+            background-color: rgba(30,32,38,255);
+            margin: 0;
+            color: white;
+            padding: 40px;
+            font-size: 45px;
+        }
+
+        .dropbutton{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+        }
+
+        @media only screen and (max-width: 460px) {
+            .aboutus-content{
+                height: 850px;
+            }
+
+            .aboutus-content{
+                font-size: 13px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar" style="background-color: rgba(30,32,38,255);">
+        <a href="index.html"  class="button">HOME</a>
+        <div class="dropdown">
+            <button class="dropbutton"  class="button">EXPERIENCES <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="exp.html#mentor">MENTOR</a>
+                <a href="exp.html#freshmen-leader">FRESHMEN LEADER</a>
+                <a href="exp.html#organization">ORGANIZATION</a>
+            </div>
+        </div>
+        <a href="#"  class="button active">ABOUT ME</a>
+    </nav>
+
+    <section class="aboutus-content">
+        <div class="title">
+            <h1 style="position: relative;top:100px;">About Me</h1>
+        </div>
+        <div class="aboutus-box" style="line-height: 1.6; margin-top: 150px;">
+                <p><h1 style="color:white;text-align: center;">Hello, I'm Irvin!</h1></p>
+                <p>My name is Irvin, I am currently studying at Bina Nusantara University, 
+                    semester 5, majoring in Computer Science and Mathematics. Apart from studying, 
+                    I'm also doing a Mentor volunteer, Freshmen Leader volunteer, and join an organization that I like.
+                </p>
+        </div>
+        
+        
+    </section>
+
+</body>
+</html>

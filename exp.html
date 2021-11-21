@@ -1,0 +1,254 @@
+<!--  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="menustyle.css">
+    font-awesome.min.css digunakan untuk <i class="fa fa-caret-down"></i> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="header">
+        <img src="images/logo.svg" alt="" id=logo>
+        <div class="nav-header">
+ 
+            <a href="contact.html">CONTACT</a>  
+            
+        </div>
+        
+    </section>
+    
+    <nav class="navbar">
+        <a href="index.html"  class="button">HOME</a>
+        <div class="dropdown">
+            <button class="dropbutton">MENU <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#burger">BURGER</a>
+                <a href="#ricepasta">RICE & PASTA</a>
+                <a href="#seafood">SEAFOOD</a>
+            </div>
+        </div>
+        <a href="aboutus.html"  class="button">ABOUT ME</a>
+    </nav>
+
+    <section class="menu-wallpaper">
+        <div class="display-block">
+            <div class="menu-container" id="burger">
+        
+ 
+                <div class="menu-box">
+                    <img src="images/human-res-test-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Human Resources</h5>
+                        <h5></h5>
+                        
+                    </div>
+                </div>
+                
+                <div class="menu-box">
+                    <img src="images/human-res2-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Discipline</h5>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-container" id="ricepasta">
+                <div class="menu-box">
+                    <img src="images/Maintenance-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Maintenance</h5>
+                                     
+                    </div>
+                </div>
+              
+                <div class="menu-box">
+                    <img src="images/Training_and_growth-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Training</h5>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-container" id="seafood">
+ 
+                <div class="menu-box">
+                    <img src="images/management-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Management</h5>
+                    
+                    </div>
+                </div>
+               
+                <div class="menu-box">
+                    <img src="images/productivity-removebg-preview.png" alt="">
+                    <div class="menu-info">
+                        <h5>Productivity</h5>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="footer">
+        <div class="link">
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt=""></a>
+            <a href="https://facebook.com/"><img src="images/facebook.png" alt=""></a>
+            <a href="https://instagram.com/"><img src="images/instagram.png" alt=""></a>
+        </div>
+        
+        <h5>Copyright @ 2021 Irvin. All Rights Reserved</h5>
+    </section> 
+
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <!-- font-awesome.min.css digunakan untuk fa fa-caret-down-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .aboutus-content{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(30,32,38,255);
+            width: 100%;
+            height: 1500px;  
+            text-align: center;
+        }
+        
+        .aboutus-box{
+            width: 53%;
+            display: inline-block;
+            text-align: center;
+            margin-left: 23%;
+            
+        }
+        .aboutus-box p, .aboutus-box h2{  
+            color: white;
+        }
+
+        .title h1{
+            margin: 0;
+            color: white;
+            padding: 40px;
+            font-size: 45px;
+        }
+
+        .dropbutton{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+        }
+
+        .basic{
+            color: white;
+        }
+
+        .basic:hover{
+            color:turquoise;
+        }
+        @media only screen and (max-width: 600px) {
+            .aboutus-content{
+                height: 1700px;
+            }
+
+            .aboutus-content{
+                font-size:smaller;
+            }
+
+            .title h1{
+                font-size: 35px;
+            }
+        }
+
+        @media only screen and (max-width: 460px) {
+            .aboutus-content{
+                height: 1600px;
+            }
+
+            .aboutus-content{
+                font-size: 13px;
+            }
+
+            .title h1{
+                font-size: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar" style="background-color: rgba(30,32,38,255);">
+        <a href="index.html"  class="button">HOME</a>
+        <div class="dropdown">
+            <button class="dropbutton active" class="button">EXPERIENCES <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="exp.html#mentor">MENTOR</a>
+                <a href="exp.html#freshmen-leader">FRESHMEN LEADER</a>
+                <a href="exp.html#organization">ORGANIZATION</a>
+            </div>
+        </div>
+        <a href="aboutme.html" class="button">ABOUT ME</a>
+    </nav>
+
+    <section class="aboutus-content">
+        <div class="title">
+            <h1 style="position: relative;top:100px;" id="mentor">Mentor</h1>
+        </div>
+        <div class="aboutus-box" style="line-height: 1.6; margin-top: 100px;">
+                <p style="text-align:left;">
+                    <b>Binus Mentoring Program - Junior Mentor (6 months)</b> <br/>
+                    - Helping students who have below average grades or have repeated semesters, by conducting additional online classes (video calls) to help them better understand the material.<br/>
+                    - Helping students complete assignments by discussing it together (by video calls and chats).<br/><br/>
+                    <b>Binus Mentoring Program - Senior Mentor (6 months)</b> <br/>
+                    - Hold online classes for 30-40 students who register through the Form Office (regularly classes are held once a week). <br/>
+                    - Discuss with students about the questions asked and help solve them. <br/>
+                    - The material taught is according to the student's request. <br/>
+                </p>
+        </div>
+
+        <div class="title">
+            <h1 style="position: relative;top:100px;" id="freshmen-leader">Freshmen Leader</h1>
+        </div>
+        <div class="aboutus-box" style="line-height: 1.6; margin-top: 100px;">
+                <p style="text-align:left;">
+                    - Helping new students get to know each other.<br/>
+                    - Helping the smooth implementation of FYP for new students.
+                   
+                </p>
+        </div>
+
+        <div class="title">
+            <h1 style="position: relative;top:100px;" id="organization">Organization</h1>
+        </div>
+        <div class="aboutus-box" style="line-height: 1.6; margin-top: 100px;">
+                <p style="text-align:left;">
+                    <b><a href="https://student-activity.binus.ac.id/basic/organization-structure/" class="basic">Bina Nusantara Swimming Club - Swimming and Competition Division</a></b><br/>
+                    - Helping new members to practice and make exercise regimen. <br/>
+                    - Togetherness and family by gathering and events. <br/>
+                    - Maintan the swimming place and members attendance.
+                </p>
+        </div>
+        
+    </section>
+
+</body>
+</html>

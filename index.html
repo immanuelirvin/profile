@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home-content.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <!-- font-awesome.min.css digunakan untuk fa fa-caret-down-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>   
+        p{
+            height: 150px;
+        }
+        
+        .dropbutton{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+        }
+
+        @media only screen and (max-width: 440px) {
+            p{
+                height: 145px;
+            }
+            
+            .link{
+                padding-inline: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+    <section class="home-content">
+        <div class="home-background">
+            <h1><p style=position:relative;top:100px>Hello,</p></h1>
+            <h1><p style=position:relative;>I'm Irvin</p></h1>
+           
+            <nav class="navbar">
+                <a href="#" class="button"">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbutton" class="button">EXPERIENCES <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="exp.html#mentor">MENTOR</a>
+                        <a href="exp.html#freshmen-leader">FRESHMEN LEADER</a>
+                        <a href="exp.html#organization">ORGANIZATION</a>
+                    </div>
+                </div>
+                <a href="aboutme.html" class="button">ABOUT ME</a>
+            </nav>
+
+            <section class="footer">
+                <div class="link" style=position:relative;top:100px; >
+                    <a href="https://www.linkedin.com/in/immanuel-irvin-4088a1226/"><img src="images/linked-in-removebg-preview.png" style="width: 35px;" alt=""></a>
+                    <a href="" style="text-decoration: none;color: white;" class="email"><i class="fa fa-envelope-o"></i> immanuel.irvin@gmail.com</a>
+                </div>
+            </section>
+        </div>
+
+
+    </section>
+    
+</body>
+</html>
