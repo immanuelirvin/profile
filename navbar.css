@@ -150,7 +150,7 @@ html,body{
     }
 
     .email{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .footer a{
@@ -163,6 +163,5 @@ html,body{
         padding-inline: 8px;
         font-size: 16px;
     }
-
   
 }
