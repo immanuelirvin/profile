@@ -6,43 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home-content.css">
-    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="navbar.css">
     <!-- font-awesome.min.css digunakan untuk fa fa-caret-down-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>   
-        p{
-            height: 150px;
-        }
-        
-        h1{
-            font-size: xx-large;
-        }
-        @media only screen and (max-width: 440px) {
-            p{
-                height: 145px;
-            }
-            
-            .link{
-                padding-inline: 10px;
-            }
-            
-            .footer a{
-                padding-inline: 10px;
-            }
-        }
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
     </style>
 </head>
 <body>
     
-
     <section class="home-content">
         <div class="home-background">
             <h1><p style=position:relative;top:100px>Hello,</p></h1>
             <h1><p style=position:relative;>I'm Irvin</p></h1>
            
             <nav class="navbar">
-                <a href="#" class="button"">HOME</a>
+                <a href="#" class="button">HOME</a>
                 <div class="dropdown">
                     <button class="dropbutton" class="button">EXPERIENCES <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-content">
@@ -57,13 +36,19 @@
             <section class="footer">
                 <div class="link" style=position:relative;top:100px; >
                     <a href="https://www.linkedin.com/in/immanuel-irvin-4088a1226/"><img src="images/linked-in-removebg-preview.png" style="width: 35px;position: relative;bottom: 4px;" alt=""></a>
-                    <a href="" style="text-decoration: none;color: white;" class="email"><i class="fa fa-envelope-o"></i> immanuel.irvin@gmail.com</a>
+                    <a href="" style="text-decoration: none;color: white; font-family: 'Roboto', sans-serif; font-weight: lighter;" class="email"><i class="fa fa-envelope-o"></i> immanuel.irvin@gmail.com</a>
                 </div>
             </section>
+        </div>
+
+        
+        <div class="loading-text">
+            
         </div>
 
 
     </section>
     
 </body>
+<script src="script.js"></script>
 </html>

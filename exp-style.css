@@ -1,0 +1,74 @@
+.exp-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30,32,38,255);
+    width: 100%;
+    height: 1500px;  
+    text-align: center;
+}
+
+.exp-box{
+    width: 53%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 23%;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+
+.exp-box p, .exp-box h2{  
+    color: white;
+}
+
+.title h1{
+    margin: 0;
+    color: white;
+    padding: 40px;
+    font-size: 45px;
+}
+
+.dropbutton{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.basic{
+    color: white;
+}
+
+.basic:hover{
+    color:turquoise;
+}
+
+.title h1{
+    position: relative;
+    top:100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .exp-content{
+        height: 1700px;
+    }
+
+    .exp-content{
+        font-size:smaller;
+    }
+
+    .title h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .exp-content{
+        height: 1600px;
+    }
+
+    .exp-content{
+        font-size: 13px;
+    }
+
+    .title h1{
+        font-size: 30px;
+    }
+}
