@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.next , .prev{
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    float: left;
+    margin-top: 55px;
+}
+
+.slider-inner{
+    float: left;
+    position: relative;
+}
+
+.slider-inner img{
+    display: none;
+    width: 250px;
+    height: 150px;
+}
+
+.slider-outer{
+    display: flex;
+    flex-direction: column;
+}
+.slider-inner img.active{
+    display: inline-block;
+}
+
+@media (max-width: 600px){
+    .next , .prev{
+        width: 5vw;
+        height: 5vw;
+    }
+}

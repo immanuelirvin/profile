@@ -45,18 +45,6 @@ h6{
     border-radius: 30px;
 }
 
-/* loading */
-.loading-text{
-    padding: 0;
-    margin: 0;
-    font-size: 50px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 @media only screen and (max-width: 450px) {
 
     p{

@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="preload.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -21,7 +24,7 @@
                 <a href="exp.html#organization">ORGANIZATION</a>
             </div>
         </div>
-        <a href="#" class="button active">ABOUT ME</a>
+        <a href="#" class="button""><strong>ABOUT ME</strong></a>
     </nav>
 
     <section class="aboutus-content">
@@ -35,11 +38,24 @@
                     I'm also doing a Mentor volunteer, Freshmen Leader volunteer, and join an organization that I like.
                 </p>
         </div>
+        
+        <!-- slider -->
+        <div class="container">
+            <div class="slide-outer">
+                <img src="project-img/arrow-left.png" class="prev" alt="">
+                <div class="slider-inner">
+                    <img src="project-img/kenshin_impact.jpg" class="active" alt="">
+                    <img src="project-img/fam_diner.jpg" alt="">
+                    <img src="project-img/cube.jpg" alt="">
+                    <img src="project-img/test_react.jpg" alt="">
+                </div>
+                <img src="project-img/arrow-right.png" class="next" alt="">
+            </div>
+        </div>
 
         <div class="title">
             <h1>Project</h1>
         </div>
-        
         <!-- section 1 -->
         <div class="aboutus-box">
                 <p><h1 style="color:white;text-align: center;">Kenshin Impact</h1></p>
@@ -90,5 +106,21 @@
         
     </section>
 
+    <div class="loader-wrapper">
+        <span class="loader" style="border: 4px solid pink;">
+            <span class="loader-inner" style="background-color: pink;"></span>
+        </span>
+        
+        <span class="loader" style="border: 4px solid #fff;">
+            <span class="loader-inner" style="background-color: #fff;"></span>
+        </span>
+
+        <span class="loader" style="border: 4px solid yellow;">
+            <span class="loader-inner" style="background-color: yellow;"></span>
+        </span>
+    </div>
+
 </body>
+<script src="Preload_script.js"></script>
+<script src="slider.js"></script>
 </html>

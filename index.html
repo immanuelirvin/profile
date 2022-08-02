@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="home-content.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="preload.css">
     <!-- font-awesome.min.css digunakan untuk fa fa-caret-down-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -41,14 +43,22 @@
             </section>
         </div>
 
-        
-        <div class="loading-text">
+        <div class="loader-wrapper">
+            <span class="loader" style="border: 4px solid pink;">
+                <span class="loader-inner" style="background-color: pink;"></span>
+            </span>
             
-        </div>
+            <span class="loader" style="border: 4px solid #fff;">
+                <span class="loader-inner" style="background-color: #fff;"></span>
+            </span>
 
+            <span class="loader" style="border: 4px solid yellow;">
+                <span class="loader-inner" style="background-color: yellow;"></span>
+            </span>
+        </div>
 
     </section>
     
 </body>
-<script src="script.js"></script>
+<script src="Preload_script.js"></script>
 </html>
