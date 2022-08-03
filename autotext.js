@@ -1,6 +1,6 @@
 const typed = new Typed(".auto-input",{
-    strings: ["Irvin","Web Developer","Binus Student"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true
+    strings: ["Web Developer","Binus Student","Irvin",],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop: false
 });
