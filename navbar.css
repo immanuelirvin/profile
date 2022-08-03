@@ -19,7 +19,13 @@ html,body{
     padding-block: 20px;
 }
 
+.navbar button{
+    position: relative;
+    left: 11px;
+}
+
 .navbar .button{
+    
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -74,7 +80,7 @@ html,body{
     min-width: 100px;
     z-index: 1;
     top: 8vh;
-    left: 2px;
+    left: 11px;
     
 }
 
