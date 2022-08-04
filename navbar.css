@@ -21,7 +21,8 @@ html,body{
 
 .navbar button{
     position: relative;
-    left: 11px;
+    left: 20px;
+    margin-right: 10px;
 }
 
 .navbar .button{
@@ -30,12 +31,13 @@ html,body{
     color: white;
     padding: 15px;
     float: left;
-    margin-inline: 5px;
+    /* margin-inline: 5px; */
+    margin-left: 4px;
     font-family: 'Roboto', sans-serif;
 }
 
 .navbar a, .navbar button{
-    padding-inline: 50px;
+    padding-inline: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -80,7 +82,7 @@ html,body{
     min-width: 100px;
     z-index: 1;
     top: 8vh;
-    left: 11px;
+    left: 20px;
     
 }
 
