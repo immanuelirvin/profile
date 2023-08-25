@@ -1,0 +1,48 @@
+/* Center-align categories container */
+.category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.category {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.category h2 {
+    margin: 10px 0;
+}
+
+.category p {
+    margin: 0 0 10px;
+}
+
+.category a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Center-align footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
